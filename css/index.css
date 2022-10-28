@@ -1,0 +1,408 @@
+html{
+    font-size: 15px;
+}
+
+.navbar-nav ul {
+display: flex;
+
+}
+.navbar-nav ul li {
+list-style: none; 
+padding: 1.7rem;
+
+}
+.navbar-nav ul li a , .navbar-brand{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 1.4rem;
+
+}
+.activee{
+    position: relative;
+}
+a ::after {
+    content: "";
+position: absolute;
+height: 3px;
+left: 22px;
+top: 50px;
+width: 57%;
+    background-color: #fff;
+}
+.navbar{
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    z-index: 111111;
+}
+#home{
+
+    bottom: 0;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color:var(--white-color);
+    background-attachment: fixed;
+    position: relative;
+    
+    }
+    .bgimg{
+        background-color: rgba(8, 9, 22, 0.644);
+
+    }
+    .header-content h5{ 
+color: white;
+
+font-size: 50px;
+font-weight: 800;
+    margin-bottom: 10px;
+}
+.header-content {
+    text-align: center;
+}
+
+.after{
+    font-size: 2.9rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+    .after::after{
+      content:  " |"; 
+      animation-name: moveletters;
+      font-weight: 600;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+      
+    }
+    @keyframes moveletters{
+        0%{content: "D|";}
+        2%{content: "De|";}
+        4%{content: "Des|";}
+        6%{content: "Desi|";}
+        8%{content: "Desig|";}
+        10%{content: "Design|";}
+        12%{content: "Designe|";}
+        14%{content: "Designer|";}
+        16%{content: "Designe|";}
+        18%{content: "Design|";}
+        20%{content: "Desig|";}
+        22%{content: "Desi|";}
+        24%{content: "Des|";}
+        26%{content: "De|";}
+        28%{content: "D|";}
+        30%{content: "a F|";}
+        32%{content: "a Fr|";}
+        33%{content: "a Fre|";}
+        34%{content: "a Free|";}
+        35%{content: "a Freel |";}
+        36%{content: "a Freela |";}
+        37%{content: "a Freelan|";}
+        38%{content: "a Freelan|";}
+        39%{content: "a Freelanc|";}
+        40%{content: "a Freelance|";}
+        41%{content: "a Freelancer|";}
+        42%{content: "a Freelance|";}
+        43%{content: "a Freelanc|";}
+        44%{content: "a Freelan|";}
+        45%{content: "a Freela|";}
+        46%{content: "a Freel|";}
+        47%{content: "a Free|";}
+        48%{content: "a Fre|";}
+        49%{content: "a Fr|";}
+        50%{content: "a F|";}
+        51%{content: "a|";}
+        52%{content: "a D |";}
+        53%{content: "a De |";}
+        54%{content: "a Deve |";}
+        55%{content: "a Devel |";}
+        56%{content: "a Develo |";}
+        57%{content: "a Develop |";}
+        58%{content: "a Develope |";}
+        59%{content: "a Developer |";}
+        60%{content: "a Develope|";}
+        62%{content: "a Develop|";}
+        64%{content: "a Develo|";}
+        66%{content: "a Devel|";}
+        68%{content: "a Deve|";}
+        70%{content: "a De|";}
+        72%{content: "a D|";}
+        74%{content: "a |";}
+        76%{content: "a L|";}
+        78%{content: "a La|";}
+        80%{content: "a Lar|";}
+        82%{content: "a Larr|";}
+        84%{content: "a Larry|";}
+        86%{content: "a Larry D |";}
+        88%{content: "a Larry Da |";}
+        90%{content: "a Larry Dan|";}
+        92%{content: "a Larry Dani|";}
+        94%{content: "a Larry Danie|";}
+        96%{content: "a Larry Daniel|";}
+        98%{content: "a Larry Daniels|";}
+        100%{content: "a Larry Daniels.|";}
+
+
+    }
+    .grayicons span i{
+        color: white;
+    }
+    .grayicons span{
+        background-color: rgba(0, 0, 0, 0.39);
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .hero-img img {
+        width: 100%;
+    } 
+    .hero-img{
+    padding: 0 0 0 30px;
+    position: relative;
+}
+.hero-img ::after{
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url('../img/dots.png');
+    background-repeat: repeat;
+    z-index: -1;
+}
+.progress {
+    position: relative;
+}
+.progress h6{
+    position: absolute;
+    margin: 1rem;
+}
+.btn-lg{
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-font-size: 1rem;
+
+}
+#service{
+    background-color: #f7f7f7;
+}
+.section-head{
+    text-align: center;
+    position: relative;
+}
+.section-head span::after{
+    content: '';
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.content h3{
+    font-weight: 800;
+}
+
+.content span{
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}  
+p span{
+    font-weight: 700;
+    color: black;
+}
+.section-head span {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    z-index: 4;
+}
+.iteam span{
+    background-color: #999;
+
+    
+}
+.iteam span:hover i{
+    background-color: rgb(0, 0, 0); 
+    color: #f7f7f7;
+    border-radius: 50%;
+
+}
+.iteam span i{
+font-size: 30px;
+padding: 10px;
+    
+}
+.iteam {
+    flex-direction: column;
+    align-items: center;
+}
+.iteam p{
+    text-align: center;
+
+}
+.layer{
+    width: 100%;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-size: 1.25rem;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+.layer-img img{
+width: 100%;
+}
+.layer:hover{
+opacity: 1;
+transform: scale(1.1);
+
+}
+.layer:hover h4, span {
+    transform: translate(0%, -10%);
+
+}
+.nav-item .nav-link{
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-item .nav-link::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    z-index: -1;
+    }
+
+.nav-item:active.after {
+    width: 95%;
+  }
+  .carousel:hover{
+cursor: pointer;
+  }
+  .carousel-indicators [data-bs-target]{
+    bottom: -34px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 50%;
+  }
+  .customers{
+    text-align: center;
+  }
+  .customers span i {
+    font-size: 30px;
+  }
+  .customers p{
+    padding: 10px;
+    
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+    }
+ 
+    .carousel-indicators{
+        bottom: -34px;
+
+    }
+    .card{
+        overflow: hidden;
+    }
+    .carousel-img .carousel-inner .container .row div .card img:hover{
+        transform: scale(1.1);
+
+    }
+    .card-body .card-title{
+        font-size: 0.5 rem;
+    }
+    .card-body .card-title h4 {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 1.6;
+}
+.card-body  a{
+    color: #111;
+}
+#Contact div div div div span {
+
+
+    font-size: 25px;
+
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    padding: 20px;
+    width: 80px;
+    height: 70px;
+
+}
+#Contact div div div div span li {
+
+    font-size: 25px;
+    margin-bottom: 15px;
+
+    line-height: 60px;
+
+}
+ .form input[type='email'],.form textarea ,.form input[type='text'] {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+                                 
+.form input[type='submit']{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+footer{
+    text-align: center;
+  
+        background: #1c1c1c;
+        padding: 30px;
+    
+}
+footer p {
+    font-size: 13px;
+    word-spacing: 2px;
+
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
